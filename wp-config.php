@@ -14,6 +14,7 @@ define( 'WP_CACHE', true );
  * * Database table prefix
  * * ABSPATH
  *
+ * 
  * @link https://wordpress.org/support/article/editing-wp-config-php/
  *
  * @package WordPress
