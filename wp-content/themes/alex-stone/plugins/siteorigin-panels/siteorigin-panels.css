@@ -1,0 +1,21 @@
+/* SiteOrigin Panels styles
+----------------------------------------------------------------- */
+.siteorigin-panels-stretch.panel-row-style[data-siteorigin-parallax] {
+	position:relative;
+	-webkit-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.siteorigin-panels-stretch.panel-row-style[data-siteorigin-parallax]:before {
+	content: ' ';
+	display: block;
+	position:absolute;
+	left: 0; 
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.footer_wrap .widget.so-panel {
+	margin: 0;
+}

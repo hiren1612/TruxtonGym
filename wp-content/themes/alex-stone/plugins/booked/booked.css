@@ -1,0 +1,105 @@
+/* Calendar */
+table.booked-calendar tr.days th {
+	border: 1px solid #ddd !important;
+}
+table.booked-calendar td,
+table.booked-calendar td+td {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+thead tr:first-child th{
+    font-size: 1.533em;
+    font-weight: 600;
+	border: none !important;
+}
+
+body table.booked-calendar thead th:first-child,
+body table.booked-calendar tbody td:first-child {
+	border-left: none !important;
+}
+body table.booked-calendar thead th:last-child,
+body table.booked-calendar tbody td:last-child {
+	border-right: none !important;
+}
+
+body table.booked-calendar,
+body table.booked-calendar tbody tr:last-child td {
+	border-bottom-color: transparent !important;
+}
+
+body table.booked-calendar tr.days th {
+    font-size: 1.533em;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    padding: 1em 0;
+}
+
+/* Booked form */
+body .booked-form .field .checkbox-radio-block label {
+	padding-left: 1.4em;
+}
+body .booked-form .field .checkbox-radio-block label:before {
+	line-height: 0.65em;
+}
+
+/* Login form */
+#booked-page-form .login-remember input {
+	display: inline;
+	vertical-align:middle;
+}
+
+#booked-profile-page i.fa {
+	color: inherit;
+}
+
+/* User profile header */
+#booked-profile-page div.booked-profile-header {
+	padding: 0 0 2em;
+}
+#booked-profile-page div.booked-user-avatar {
+	width: 50px;
+	height:50px;
+}
+#booked-profile-page div.booked-user-avatar img {
+	-webkit-border-radius: 50%;
+	    -ms-border-radius: 50%;
+			border-radius: 50%;
+}
+#booked-profile-page .booked-user h3 strong {
+	font-weight:400;
+}
+
+/* User profile content */
+#booked-profile-page div.booked-tab-content {
+	-webkit-border-radius: 0;
+	    -ms-border-radius: 0;
+			border-radius: 0;
+}
+body .booked-modal input[type=submit],
+body .booked-modal button{
+	padding: 0.35em;
+	border-width: 3px !important;
+}
+body .booked-calendar-wrap .booked-appt-list .timeslot .timeslot-people button {
+	padding: 0.35em 2em;
+	border-width: 3px !important;
+}
+
+body .booked-form .condition-block .field > input, 
+body .booked-form .condition-block .field > button {
+    border-radius: 0 !important;
+}
+
+body .booked-form .booked-appointments {
+    border-radius: 0 !important;
+}
+
+body .booked-calendar-wrap .booked-appt-list .timeslot.timeslot-count-hidden .timeslot-people{
+	height: 71px;
+	padding-top: 18px;
+}
+
+body .booked-calendar-wrap .booked-appt-list .timeslot.timeslot-count-hidden .timeslot-time{
+	padding-top: 17px;
+}
