@@ -1,0 +1,325 @@
+{
+    "packages": [
+        {
+            "name": "psr/log",
+            "version": "1.1.3",
+            "version_normalized": "1.1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/0f73288fd15629204f9d42b7055f72dacbe811fc",
+                "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2020-03-23T09:12:05+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "install-path": "../psr/log"
+        },
+        {
+            "name": "securetrading/data",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Secure-Trading/PHP-Data.git",
+                "reference": "bac4c33f24c55eea2ce6cbb5c9887c1571414635"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Secure-Trading/PHP-Data/zipball/bac4c33f24c55eea2ce6cbb5c9887c1571414635",
+                "reference": "bac4c33f24c55eea2ce6cbb5c9887c1571414635",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "securetrading/unittest": "~1.0"
+            },
+            "time": "2016-11-16T10:42:50+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Securetrading\\Data\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Secure Trading's Data package.  Contains getters/setters/deleters for a data object and allows extending classes to define validation methods for specific data keys.",
+            "install-path": "../securetrading/data"
+        },
+        {
+            "name": "securetrading/exception",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SecureTrading/PHP-Exception.git",
+                "reference": "ccb373e5c96608fb0296c0a72752c03c7b80f7b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SecureTrading/PHP-Exception/zipball/ccb373e5c96608fb0296c0a72752c03c7b80f7b0",
+                "reference": "ccb373e5c96608fb0296c0a72752c03c7b80f7b0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2020-06-25T10:58:41+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Securetrading\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Secure Trading's base Exception class.",
+            "install-path": "../securetrading/exception"
+        },
+        {
+            "name": "securetrading/http",
+            "version": "1.0.2",
+            "version_normalized": "1.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SecureTrading/PHP-Http.git",
+                "reference": "8136e69b7cfc66bce8de8c2de86e5bb6734e6838"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SecureTrading/PHP-Http/zipball/8136e69b7cfc66bce8de8c2de86e5bb6734e6838",
+                "reference": "8136e69b7cfc66bce8de8c2de86e5bb6734e6838",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "~1.0",
+                "securetrading/exception": "~1.0",
+                "securetrading/ioc": "~1.0"
+            },
+            "require-dev": {
+                "securetrading/unittest": "~1.0"
+            },
+            "time": "2018-11-15T09:10:17+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Securetrading\\Http\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Secure Trading's HTTP package - provides a generic HTTP interface and an implementation that uses cURL.  Supports logic for retries; SSL verification; etc.",
+            "install-path": "../securetrading/http"
+        },
+        {
+            "name": "securetrading/ioc",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Secure-Trading/PHP-IoC.git",
+                "reference": "bc8a074b49792ffb46a48e133e4ab4252268f2cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Secure-Trading/PHP-IoC/zipball/bc8a074b49792ffb46a48e133e4ab4252268f2cf",
+                "reference": "bc8a074b49792ffb46a48e133e4ab4252268f2cf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "securetrading/exception": "~1.0"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "1.5.0",
+                "securetrading/unittest": "~1.0"
+            },
+            "time": "2016-11-16T10:42:39+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Securetrading\\Ioc\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Secure Trading's Inversion of Control (IoC) package.",
+            "install-path": "../securetrading/ioc"
+        },
+        {
+            "name": "securetrading/loader",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Secure-Trading/PHP-Loader.git",
+                "reference": "c987ad7e31020698cf206aa74f7b683a4f1fcbf7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Secure-Trading/PHP-Loader/zipball/c987ad7e31020698cf206aa74f7b683a4f1fcbf7",
+                "reference": "c987ad7e31020698cf206aa74f7b683a4f1fcbf7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "securetrading/unittest": "~1.0"
+            },
+            "time": "2016-11-16T10:43:08+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Securetrading\\Loader\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Secure Trading's Loader package.",
+            "install-path": "../securetrading/loader"
+        },
+        {
+            "name": "securetrading/log",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Secure-Trading/PHP-Log.git",
+                "reference": "d65f89af44859bb308b512d2a7da2db752362d59"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Secure-Trading/PHP-Log/zipball/d65f89af44859bb308b512d2a7da2db752362d59",
+                "reference": "d65f89af44859bb308b512d2a7da2db752362d59",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "~1.0",
+                "securetrading/exception": "~1.0",
+                "securetrading/ioc": "~1.0",
+                "securetrading/loader": "~1.0"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "1.5.0",
+                "securetrading/unittest": "~1.0"
+            },
+            "time": "2016-11-16T10:44:03+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Securetrading\\Log\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Secure Trading's Log package.",
+            "install-path": "../securetrading/log"
+        },
+        {
+            "name": "securetrading/stpp_json",
+            "version": "1.0.2",
+            "version_normalized": "1.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SecureTrading/PHP-API.git",
+                "reference": "76d107ded0979112453a10336c081f7f25fa1a11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SecureTrading/PHP-API/zipball/76d107ded0979112453a10336c081f7f25fa1a11",
+                "reference": "76d107ded0979112453a10336c081f7f25fa1a11",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "securetrading/data": "~1.0",
+                "securetrading/exception": "~1.0",
+                "securetrading/http": "~1.0",
+                "securetrading/ioc": "~1.0",
+                "securetrading/log": "~1.0"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "1.5.0",
+                "securetrading/unittest": "~1.0",
+                "squizlabs/php_codesniffer": "2.*"
+            },
+            "time": "2020-06-29T08:58:29+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Securetrading\\Stpp\\JsonInterface\\": "src/"
+                },
+                "files": [
+                    "src/helper.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Secure Trading's JSON API.",
+            "install-path": "../securetrading/stpp_json"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
